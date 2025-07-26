@@ -1,3 +1,5 @@
+# using input from text file and outputting calculations to new text file
+# informing user of where new data is stored
 puts "reading from celsius file"
 num_in = File.read("temp.dat") # contains 100 as value
 celsius = num_in.to_i
